@@ -1,2 +1,2 @@
-0x00-hello_world
+#!/bin/bash
 gcc -masm=intel $CFILE -S > $(echo $CFILE | cut -d"." -f1).s
